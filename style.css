@@ -9,43 +9,31 @@
     border: 1px solid black;
     margin: auto;
 }
-#character{
-    width: 20px;
-    height: 50px;
-    background-color: grey;
-    position:relative;
-    top: 150px;
-}
-.animate{
-    animation: jump 0.3s linear;
-}
-@keyframes jump{
-    0%{top: 150px;}
-    30%{top: 100px;}
-    70%{top: 100px;}
-    100%{top: 150px;}
+
+
+#video1{
+    opacity: 0.8;
+    top: 0px;
+    position: fixed;
+    z-index: 1;
 }
 
-#block{
-    background-color: grey;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    top: 130px;
-    left: 500px;
-    animation: block 1s infinite linear;
-}
-@keyframes block{
-    0%{left: 500px}
-    100%{left: -20px}
-}
-p{
-    text-align: center;
-}
-
-#videoFG{
+#video2{
     opacity: 0.95;
     top: 0px;
     position: fixed;
     z-index: 1;
+}
+
+#video3{
+    opacity: 0.95;
+    top: 0px;
+    position: fixed;
+    z-index: 1;
+}
+
+.clear{
+    vertical-align: center;
+    position: fixed;
+    z-index: 2;
 }
