@@ -8,8 +8,9 @@ function hello(){
         document.getElementById("thecode").style.visibility = "visible";
     } else if(document.getElementById("tiktokCode").value=="third"){
         playAudio1()
+        document.getElementById("video1").style.opacity = 0; //change this to the suitcase
         setTimeout(function(){
-            document.getElementById("video3").style.opacity = 0; //change this to the suitcase
+            document.getElementById("briefcasepic").style.opacity = 0; //change this to the suitcase
         },5000);
         document.getElementById("thecode").style.visibility = "visible";
 }

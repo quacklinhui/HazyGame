@@ -1,43 +1,54 @@
-*{
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
-#video1{
-    opacity: 0.8;
-    top: 0px;
-    position: fixed;
-    z-index: 1;
+#video1 {
+  opacity: 0.8;
+  top: 0px;
+  position: fixed;
+  z-index: 1;
 }
 
-#video2{
-    opacity: 0.95;
-    top: 0px;
-    position: fixed;
-    z-index: 1;
+#video2 {
+  opacity: 0.95;
+  top: 0px;
+  position: fixed;
+  z-index: 1;
 }
 
-#video3{
-    opacity: 0.95;
-    top: 0px;
-    position: fixed;
-    z-index: 1;
+#video3 {
+  opacity: 0.95;
+  top: 0px;
+  position: fixed;
+  z-index: 1;
 }
 
-.clear{
-    text-align: center;
-    position: fixed;
-    z-index: 2;
+.clear {
+  text-align: center;
+  position: fixed;
+  z-index: 2;
 }
 
-#message{
-    font-size: xx-large;
-    height: 400px;
-    width: 100%;
-    top: 200px;
-    position: relative;
-    z-index: 2;
-    text-align: center;
+#message {
+  font-size: xx-large;
+  height: 400px;
+  width: 100%;
+  top: 200px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
 
+#briefcasepic {
+  position: fixed;
+  z-index: 0.5;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-top: -300px;
 }
