@@ -2,11 +2,11 @@ function hello(){
     if (document.getElementById("tiktokCode").value=="rain"){
         playAudio2()
         document.getElementById("video1").style.opacity = 0;
-    } else if(document.getElementById("tiktokCode").value=="will"){
+    } else if(document.getElementById("tiktokCode").value=="pls"){
         document.getElementById("video3").style.opacity = 0;
         playAudio3()
         document.getElementById("thecode").style.visibility = "visible";
-    } else if(document.getElementById("tiktokCode").value=="come"){
+    } else if(document.getElementById("tiktokCode").value=="comela"){
         playAudio1()
         document.getElementById("video2").style.opacity = 0; //change this to the suitcase
         setTimeout(function(){
